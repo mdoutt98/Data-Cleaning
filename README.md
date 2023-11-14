@@ -12,14 +12,15 @@
 - headers: Ticker, Date, Low, Open, Volume, High, Close, Adjusted Close
 
 **Aggregate.py** 
-- combine csv files 
-- search folders and combine csv files from different directories
+- combines csv files with provided file pathes
+- searches folders and combines csv files from different directories
 
 **Validate.py**
-- identifies number of unique stock tickers, identifies abnormal data, creates csv of abnormal data grouped by ticker, prints list of tickers with abnormal data and as a percentage 
+- identifies the number of unique stock tickers, abnormal data,
+- creates csv of abnormal data grouped by ticker and prints to terminal a list of tickers with abnormal data  
 
 **Transform.py**
-- Removes all abnormal stock ticker data and creates a cleansed csv
+- Removes all abnormal stock ticker data and creates a new cleansed csv
 
 
 
