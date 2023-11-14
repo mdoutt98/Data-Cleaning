@@ -1,4 +1,4 @@
-# Data-Cleaning-
+# Data-Cleaning
 ## Python scripts for aggregating, validating, and transforming files
 
 ---
