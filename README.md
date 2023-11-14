@@ -12,7 +12,7 @@
 - headers: Ticker, Date, Low, Open, Volume, High, Close, Adjusted Close
 
 **Aggregate.py** 
-- combines csv files with provided file pathes
+- combines csv files with provided file paths
 - searches folders and combines csv files from different directories
 
 **Validate.py**
