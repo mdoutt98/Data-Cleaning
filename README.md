@@ -1,6 +1,6 @@
 # Data-Cleaning
 ## Python scripts for aggregating, validating, and transforming files
-## Requires tdqm package for progress bar
+### *Requires tdqm package for progress bar*
 ---
 ### General-Purpose
 
