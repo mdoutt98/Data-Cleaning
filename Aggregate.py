@@ -34,7 +34,7 @@ def aggregate_stock_data(root_folder):
         sorted_data = aggregated_data.sort_values(by=['Ticker', 'Date'])
 
         # Save the sorted data to a new CSV file
-        sorted_data.to_csv('aggregate_sorted.csv', index=False)
+        sorted_data.to_csv('Aggregate.csv', index=False)
 
         print("Data aggregated and sorted successfully.")
     else:
