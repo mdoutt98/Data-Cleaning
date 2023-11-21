@@ -14,9 +14,9 @@ def scan_and_export_unusual_data(csv_file_path, output_file_path):
         df.isnull().any(axis=1) |  # Missing data
         (df.select_dtypes(include=[float, int]) < 0).any(axis=1) |  # Negative numbers
         (df['Volume'] > 2e9) |  # Volume greater than 2 billion
-        (df['High'] > 5e5) |  # High greater than 500,000
+        (df['High'] > 7e5) |  # High greater than 700,000
         (df['Close'] > 470000) |  # Close greater than 470,000
-        (df['Adjusted Close'] > 470000)  # Adjusted Close greater than 470,000
+        (df['Adjusted Close'] > 700000)  # Adjusted Close greater than 470,000
     )
 
     # Filter for rows with unusual data
@@ -43,4 +43,4 @@ def scan_and_export_unusual_data(csv_file_path, output_file_path):
     print(f"Unusual data exported to {output_file_path}")
 
 # Example usage
-scan_and_export_unusual_data('../FixedMe.csv', 'Weird.csv')
+scan_and_export_unusual_data('./Aggregate.csv', 'Weird.csv')
